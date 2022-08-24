@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B5DCC028B5F80F002A85C1 /* ComicTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5DCBE28B5F80F002A85C1 /* ComicTab.storyboard */; };
 		8019BCDB28A29032009F866C /* CharTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019BCDA28A29032009F866C /* CharTableViewController.swift */; };
 		80733AC928996B7E009E4137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80733AC828996B7E009E4137 /* AppDelegate.swift */; };
 		80733ACB28996B7E009E4137 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80733ACA28996B7E009E4137 /* SceneDelegate.swift */; };
@@ -14,12 +15,12 @@
 		80733AD228996B7F009E4137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80733AD128996B7F009E4137 /* Assets.xcassets */; };
 		80733AD528996B7F009E4137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80733AD328996B7F009E4137 /* LaunchScreen.storyboard */; };
 		8079F2EA28A92E3500F55A36 /* DenjiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079F2E928A92E3500F55A36 /* DenjiViewController.swift */; };
-		80A34B2928B137B200C1F06A /* ComicTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A34B2728B137B200C1F06A /* ComicTab.storyboard */; };
 		80B4770F28A15F40007AAF24 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B4770E28A15F40007AAF24 /* WebKit.framework */; };
 		80F21B8928B0CF0D0013F5CC /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F21B8828B0CF0D0013F5CC /* AnimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55B5DCBF28B5F80F002A85C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ComicTab.storyboard; sourceTree = "<group>"; };
 		8019BCDA28A29032009F866C /* CharTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharTableViewController.swift; sourceTree = "<group>"; };
 		80733AC528996B7E009E4137 /* ChainsawMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainsawMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80733AC828996B7E009E4137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		80733AD428996B7F009E4137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80733AD628996B7F009E4137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8079F2E928A92E3500F55A36 /* DenjiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenjiViewController.swift; sourceTree = "<group>"; };
-		80A34B2828B137B200C1F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ChainsawMan/Base.lproj/ComicTab.storyboard; sourceTree = "<group>"; };
 		80B4770E28A15F40007AAF24 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		80F21B8828B0CF0D0013F5CC /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,12 +76,12 @@
 				80733AC828996B7E009E4137 /* AppDelegate.swift */,
 				80733ACA28996B7E009E4137 /* SceneDelegate.swift */,
 				8019BCDA28A29032009F866C /* CharTableViewController.swift */,
+				55B5DCBE28B5F80F002A85C1 /* ComicTab.storyboard */,
 				8079F2E928A92E3500F55A36 /* DenjiViewController.swift */,
 				80F21B8828B0CF0D0013F5CC /* AnimeViewController.swift */,
 				80733ACE28996B7E009E4137 /* Main.storyboard */,
 				80733AD128996B7F009E4137 /* Assets.xcassets */,
 				80733AD328996B7F009E4137 /* LaunchScreen.storyboard */,
-				80A34B2728B137B200C1F06A /* ComicTab.storyboard */,
 				80733AD628996B7F009E4137 /* Info.plist */,
 			);
 			path = ChainsawMan;
@@ -154,7 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A34B2928B137B200C1F06A /* ComicTab.storyboard in Resources */,
+				55B5DCC028B5F80F002A85C1 /* ComicTab.storyboard in Resources */,
 				80733AD528996B7F009E4137 /* LaunchScreen.storyboard in Resources */,
 				80733AD228996B7F009E4137 /* Assets.xcassets in Resources */,
 				80733AD028996B7E009E4137 /* Main.storyboard in Resources */,
@@ -179,6 +179,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		55B5DCBE28B5F80F002A85C1 /* ComicTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B5DCBF28B5F80F002A85C1 /* Base */,
+			);
+			name = ComicTab.storyboard;
+			sourceTree = "<group>";
+		};
 		80733ACE28996B7E009E4137 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -193,14 +201,6 @@
 				80733AD428996B7F009E4137 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		80A34B2728B137B200C1F06A /* ComicTab.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80A34B2828B137B200C1F06A /* Base */,
-			);
-			name = ComicTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
