@@ -49,7 +49,6 @@
 		80733ABC28996B7E009E4137 = {
 			isa = PBXGroup;
 			children = (
-				80A34B2728B137B200C1F06A /* ComicTab.storyboard */,
 				8083F66B28A3B9AC00C1B0D3 /* ChainsawMan */,
 				80733AC628996B7E009E4137 /* Products */,
 				80B4770D28A15F40007AAF24 /* Frameworks */,
@@ -82,6 +81,7 @@
 				80733ACE28996B7E009E4137 /* Main.storyboard */,
 				80733AD128996B7F009E4137 /* Assets.xcassets */,
 				80733AD328996B7F009E4137 /* LaunchScreen.storyboard */,
+				80A34B2728B137B200C1F06A /* ComicTab.storyboard */,
 				80733AD628996B7F009E4137 /* Info.plist */,
 			);
 			path = ChainsawMan;
